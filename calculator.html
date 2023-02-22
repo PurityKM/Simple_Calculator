@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A sample calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="script.js"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+</head>
+
+<body>
+    <div class="calculator">
+        <input type="text" id="res">
+        <div class="btn">
+            <input type="button" value="c" onclick="clear()">
+            <input type="button" value="/" onclick="solve('/')">
+            <input type="button" value="<-" onclick="back('<-')">
+            <input type="button" value="%" onclick="solve('%')">
+            <br>
+            <input type="button" value="7" onclick="solve('7')">
+            <input type="button" value="8" onclick="solve('8')">
+            <input type="button" value="9" onclick="solve('9')">
+            <input type="button" value="x" onclick="solve('x')">
+            <br>
+            <input type="button" value="4" onclick="solve('4')">
+            <input type="button" value="5" onclick="solve('5')">
+            <input type="button" value="6" onclick="solve('6')">
+            <input type="button" value="-" onclick="solve('-')">
+            <br>
+            <input type="button" value="1" onclick="solve('1')">
+            <input type="button" value="2" onclick="solve('2')">
+            <input type="button" value="3" onclick="solve('3')">
+            <input type="button" value="+" onclick="solve('+')">
+            <br>
+            <input type="button" value="0" onclick="solve('0')">
+            <input type="button" value="." onclick="solve('.')">
+            <input type="button" value="=" onclick="result()">
+        </div>
+    </div>
+</body>
+
+</html>

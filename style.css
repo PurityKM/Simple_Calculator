@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.top-title {
+    position: relative;
+    width: fit-content;
+    margin: 1rem auto;
+    /*The margin auto places the image at the center*/
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgb(241, 7, 241);
+}
+
+.main {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100vh;
+    width: 100vw;
+}
+
+.sub-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    width: 16rem;
+    height: 25rem;
+}
+
+.img {
+    border-radius: 2rem;
+    height: 17rem;
+    width: 15.8rem;
+}
+
+.love {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+.link a {
+    text-decoration: none;
+    color: rgba(124, 7, 26, 0.952);
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.link a:hover {
+    color: black;
+    background-color: brown;
+    border-top-right-radius: 3px;
+}
